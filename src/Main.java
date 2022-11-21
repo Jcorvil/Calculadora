@@ -4,15 +4,15 @@ public class Main {
     final static Integer a = 2;
     final static Integer b = 3;
     final static Integer c = 6;
-    final static Double d = 2.5;
-    final static Double e = 3.0;
+    final static Double d = 2.5d;
+    final static Double e = 3.0d;
     enum Operacion{
         suma, resta, division, multiplicacion
     }
 
     public static void main(String[] args) {
         CalculadoraBasica basica = new CalculadoraBasica();
-        Operacion operacionSeleccionada = Operacion.multiplicacion;
+        Operacion operacionSeleccionada = Operacion.suma;
 
         basica.suma(2, 3);
         basica.suma(2, 3 ,6);
@@ -27,6 +27,8 @@ public class Main {
         switch(operacionSeleccionada) {
             case suma:
                 System.out.println("La suma de " + a + " + " + b + " = " + basica.suma(a, b));
+                System.out.println("La suma de " + a + " + " + b + " + " + c + " = " + basica.suma(a, b, c));
+                System.out.println("La suma de " + d + " + " + e + " = " + basica.suma(d, e));
                 break;
 
             case resta:

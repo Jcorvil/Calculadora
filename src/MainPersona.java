@@ -4,32 +4,28 @@ public class MainPersona {
 
         Persona Persona1 = new Persona();
         System.out.println("Persona 1");
-        System.out.println("Edad: " + Persona1.age);
-        System.out.println("Nombre: " + Persona1.name);
-        System.out.println("Primer apellido " + Persona1.surname1);
-        System.out.println("Segundo apellido " + Persona1.surname2);
+        System.out.println("Edad: " + Persona1.getAge());
+        System.out.println("Nombre: " + Persona1.getName());
+        System.out.println("Primer apellido " + Persona1.getSurname1());
+        System.out.println("Segundo apellido " + Persona1.getSurname2());
+        Persona1.CalculoMayorDeEdad();
 
-        Persona Persona2 = new Persona();
+        Persona Persona2 = new Persona("Francisco", "Gómez");
         System.out.println("Persona 2");
-        System.out.println("Edad: " + Persona2.age);
-        System.out.println("Nombre: " + Persona2.name);
-        System.out.println("Primer apellido " + Persona2.surname1);
-        System.out.println("Segundo apellido " + Persona2.surname2);
+        System.out.println("Edad: " + Persona2.getAge());
+        System.out.println("Nombre: " + Persona2.getName());
+        System.out.println("Primer Apellido: " + Persona2.getSurname1());
+        Persona2.CalculoMayorDeEdad();
 
-
-        Persona Persona3 = new Persona("Fran", "Gómez");
+        Persona Persona3 = new Persona();
         System.out.println("Persona 3");
-        System.out.println("Edad: " + Persona3.age);
-        System.out.println("Nombre: " + Persona3.name);
-        System.out.println("Primer apellido: " + Persona3.surname1);
-        System.out.println("Segundo apellido " + Persona3.surname2);
-
-        Persona Persona4 = new Persona();
-        System.out.println("Persona 4");
-        System.out.println("Edad: " + Persona4.age);
-        System.out.println("Nombre: " + Persona4.name);
-        System.out.println("Primer apellido " + Persona4.surname1);
-        System.out.println("Segundo apellido " + Persona4.surname2);
+        Persona3.setAge(25);
+        System.out.println("Edad: " + Persona3.getAge());
+        Persona3.setName("Jorge");
+        Persona3.setSurname1("Coronil");
+        Persona3.setSurname2("Villalba");
+        Persona3.CalculoMayorDeEdad();
+        Persona3.MostrarNombreCompleto();
 
     }
 }
