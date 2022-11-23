@@ -25,7 +25,10 @@ public class MainPersona {
         Persona3.setSurname1("Coronil");
         Persona3.setSurname2("Villalba");
         Persona3.CalculoMayorDeEdad();
+        System.out.println("Nombre y apellidos: ");
         Persona3.MostrarNombreCompleto();
+        System.out.println("Iniciales: ");
+        Persona3.MostrarIniciales();
 
     }
 }
