@@ -1,3 +1,5 @@
+import java.util.stream.Stream;
+
 public class Persona {
     private String name;
     private String surname1;
