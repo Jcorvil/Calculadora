@@ -26,7 +26,7 @@ public class Persona {
         System.out.println(name+ " " + surname1 + " " + surname2);
     }
     public void MostrarIniciales(){
-        System.out.println((this.name.charAt(0)) + "." + (this.surname1.charAt(0)) + "." + (this.surname2.charAt(0)));
+        System.out.println(this.name.charAt(0) + "." + this.surname1.charAt(0) + "." + this.surname2.charAt(0));
     }
 
     public String getName(){
