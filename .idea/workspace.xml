@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80e52fa3-2f99-4487-b946-b6e5b281ac3b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UD3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculadoraBasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/CalculadoraBasica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/MainPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +42,21 @@
 }</component>
   <component name="RunManager" selected="Application.MainPersona">
     <configuration name="Config calculadora" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="org.losremedios.daw1.prog.practica.UT3.Main" />
       <module name="UD3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="org.losremedios.daw1.prog.practica.UT3.Main" />
       <module name="UD3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainPersona" />
+      <option name="MAIN_CLASS_NAME" value="org.losremedios.daw1.prog.practica.UT3.MainPersona" />
       <module name="UD3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,22 +95,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/Main.java</url>
           <line>22</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CalculadoraBasica.java</url>
+          <url>file://$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/CalculadoraBasica.java</url>
           <line>7</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/Main.java</url>
           <line>29</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/CalculadoraBasica.java</url>
+          <url>file://$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/CalculadoraBasica.java</url>
           <line>10</line>
           <properties class="CalculadoraBasica" method="suma">
             <option name="EMULATED" value="true" />
