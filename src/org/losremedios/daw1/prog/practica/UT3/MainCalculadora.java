@@ -1,6 +1,6 @@
 package org.losremedios.daw1.prog.practica.UT3;
 
-public class Main {
+public class MainCalculadora {
 
     //Calculadora con suma, resta, división y multiplicación.
     final static Integer a = 2;
