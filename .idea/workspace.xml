@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80e52fa3-2f99-4487-b946-b6e5b281ac3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/EjercicioRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/MainCalculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/MainPersona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/MainPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/EjercicioRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/EjercicioRandom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/org/losremedios/daw1/prog/practica/UT3/EjercicioRandom.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/1DAW_2223_18/Desktop/Programación/UD3/Calculadora&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Config calculadora">
     <configuration name="Config calculadora" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.losremedios.daw1.prog.practica.UT3.MainCalculadora" />
       <module name="UD3" />
