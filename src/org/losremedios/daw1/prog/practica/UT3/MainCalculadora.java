@@ -12,7 +12,9 @@ public class MainCalculadora {
         suma, resta, division, multiplicacion
     }
 
+
     public static void main(String[] args) {
+
         CalculadoraBasica basica = new CalculadoraBasica();
         Operacion operacionSeleccionada = Operacion.suma;
 
@@ -25,6 +27,8 @@ public class MainCalculadora {
         basica.suma (d, e);
         basica.resta (d, e);
         System.out.println(basica.resta(d, e));
+
+
 
         switch(operacionSeleccionada) {
             case suma:
