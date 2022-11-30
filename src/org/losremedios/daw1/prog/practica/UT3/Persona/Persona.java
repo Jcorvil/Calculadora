@@ -1,4 +1,4 @@
-package org.losremedios.daw1.prog.practica.UT3;
+package org.losremedios.daw1.prog.practica.UT3.Persona;
 
 import java.util.stream.Stream;
 
